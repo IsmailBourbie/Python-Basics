@@ -19,9 +19,15 @@ for i in range(0, 30):
     myCubic.append(i**3)
     myExponential.append(1.5**i)
     
-    
-## First method
+
+plt.figure('linear')
 plt.plot(mySamples, myLinear)
+
+plt.figure('quadratic')
 plt.plot(mySamples, myQuadratic)
+
+plt.figure('cubic')
 plt.plot(mySamples, myCubic)
+
+plt.figure('exponential')
 plt.plot(mySamples, myExponential)
