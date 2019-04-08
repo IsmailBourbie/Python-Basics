@@ -21,13 +21,25 @@ for i in range(0, 30):
     
 
 plt.figure('linear')
+plt.title("Linear")
+plt.ylabel("linear func")
+plt.xlabel("sample points")
 plt.plot(mySamples, myLinear)
 
 plt.figure('quadratic')
+plt.title("Quadratic")
+plt.ylabel("quadratic func")
+plt.xlabel("sample points")
 plt.plot(mySamples, myQuadratic)
 
 plt.figure('cubic')
+plt.title("Cubic")
+plt.ylabel("cubic func")
+plt.xlabel("sample points")
 plt.plot(mySamples, myCubic)
 
 plt.figure('exponential')
+plt.title("Exponential")
+plt.ylabel("exponential func")
+plt.xlabel("sample points")
 plt.plot(mySamples, myExponential)
