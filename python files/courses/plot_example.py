@@ -19,7 +19,7 @@ for i in range(0, 30):
     myCubic.append(i**3)
     myExponential.append(1.5**i)
     
-
+"""
 plt.figure('linear')
 plt.title("Linear")
 plt.ylim(0, 1000)
@@ -46,3 +46,10 @@ plt.ylim(0, 1000)
 plt.ylabel("exponential func")
 plt.xlabel("sample points")
 plt.plot(mySamples, myExponential)
+"""
+plt.figure("linear vs quadratic")
+plt.clf()
+plt.plot(mySamples, myLinear, label="Linear")
+plt.plot(mySamples, myQuadratic, label="Quadratic") ## label for each graph
+plt.legend(loc = "upper left") ## the place of legend
+
