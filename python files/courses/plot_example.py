@@ -49,7 +49,7 @@ plt.plot(mySamples, myExponential)
 """
 plt.figure("linear vs quadratic")
 plt.clf()
-plt.plot(mySamples, myLinear, label="Linear")
-plt.plot(mySamples, myQuadratic, label="Quadratic") ## label for each graph
+plt.plot(mySamples, myLinear, 'b--', label="Linear")
+plt.plot(mySamples, myQuadratic, 'ro',  label="Quadratic") ## label for each graph
 plt.legend(loc = "upper left") ## the place of legend
 
